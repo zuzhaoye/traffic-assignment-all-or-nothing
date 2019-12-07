@@ -8,7 +8,7 @@ Given a network with limited links and demand between each node pair, calculate 
 
 
 Input files:
-- network.csv
+- network.csv (arrange it in such an order from top to bottom: 1 - 2, 1 - 3, ..., 1 - N, 2 - 3, 2 - 4 ..., (N-1) - N)
 - OD.csv (traffic demand on each origin - destination pair)
 
 The Dijsktra algorithm on finding the shortest path is credited to [dingran](https://gist.github.com/dingran/b827b65a252000e25d818ba3520242e1).
