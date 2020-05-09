@@ -1,4 +1,4 @@
-# traffic_assignment_all_or_nothing
+# All or nothing algorithm for traffic assignment
 It is an all-or-nothing algorithm for traffic assignment.
 
 Given a network with limited links and demand between each node pair, calculate the traffic flow on each link based on all-or-nothing assignement algorithm, e.g. assign all the traffic demand from node 1 to 3 to its shortest path.
